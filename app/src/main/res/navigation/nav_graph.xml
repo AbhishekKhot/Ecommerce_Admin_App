@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ProductsCategoriesFragment">
+
+    <fragment
+        android:id="@+id/ProductsCategoriesFragment"
+        android:name="com.project.ecommerceadminapp.FragmentProductsCategories"
+        android:label="Product Categories"
+        tools:layout="@layout/fragment_products_categories" />
+    <fragment
+        android:id="@+id/fragmentAddNewProducts"
+        android:name="com.project.ecommerceadminapp.FragmentAddNewProducts"
+        android:label="FragmentAddNewProducts" />
+    <fragment
+        android:id="@+id/OrderDetailsFragment"
+        android:name="com.project.ecommerceadminapp.FragmentOrderDetails"
+        android:label="Order Details"
+        tools:layout="@layout/fragment_order_details" />
+    <fragment
+        android:id="@+id/AllProductsFragment"
+        android:name="com.project.ecommerceadminapp.FragmentAllProducts"
+        android:label="All Products"
+        tools:layout="@layout/fragment_all_products" >
+        <action
+            android:id="@+id/action_fragmentAllProducts_to_fragmentAddNewProducts"
+            app:destination="@id/fragmentAddNewProducts" />
+    </fragment>
+</navigation>
