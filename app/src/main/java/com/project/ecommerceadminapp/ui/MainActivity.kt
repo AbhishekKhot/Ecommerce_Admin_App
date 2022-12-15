@@ -1,4 +1,4 @@
-package com.project.ecommerceadminapp
+package com.project.ecommerceadminapp.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,6 +7,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import androidx.navigation.ui.AppBarConfiguration
+import com.project.ecommerceadminapp.R
 import com.project.ecommerceadminapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

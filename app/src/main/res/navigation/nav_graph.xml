@@ -7,21 +7,21 @@
 
     <fragment
         android:id="@+id/ProductsCategoriesFragment"
-        android:name="com.project.ecommerceadminapp.FragmentProductsCategories"
+        android:name="com.project.ecommerceadminapp.ui.FragmentProductsCategories"
         android:label="Product Categories"
         tools:layout="@layout/fragment_products_categories" />
     <fragment
         android:id="@+id/fragmentAddNewProducts"
-        android:name="com.project.ecommerceadminapp.FragmentAddNewProducts"
+        android:name="com.project.ecommerceadminapp.ui.FragmentAddNewProducts"
         android:label="FragmentAddNewProducts" />
     <fragment
         android:id="@+id/OrderDetailsFragment"
-        android:name="com.project.ecommerceadminapp.FragmentOrderDetails"
+        android:name="com.project.ecommerceadminapp.ui.FragmentOrderDetails"
         android:label="Order Details"
         tools:layout="@layout/fragment_order_details" />
     <fragment
         android:id="@+id/AllProductsFragment"
-        android:name="com.project.ecommerceadminapp.FragmentAllProducts"
+        android:name="com.project.ecommerceadminapp.ui.FragmentAllProducts"
         android:label="All Products"
         tools:layout="@layout/fragment_all_products" >
         <action
