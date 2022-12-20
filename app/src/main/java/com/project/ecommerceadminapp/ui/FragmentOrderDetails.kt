@@ -1,4 +1,4 @@
-package com.project.ecommerceadminapp
+package com.project.ecommerceadminapp.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -14,7 +14,7 @@ class FragmentOrderDetails : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding=FragmentOrderDetailsBinding.inflate(layoutInflater)
         return binding.root
     }
